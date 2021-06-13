@@ -1,0 +1,156 @@
+/* Tips */
+
+@media screen and (max-width: 500px) {
+
+body{
+  text-align: center;
+}
+
+div.main-div{
+  flex-flow: column-reverse;
+  margin: 70px auto 0;
+  width: 90%;
+}
+
+div.text-div{
+  margin: auto;
+  padding: 40px 20px 20px;
+  width: 90%;
+}
+
+div>h1{
+  width: 100%;
+}
+
+p.main-text{
+  font-size: 15px;
+  margin: 0 auto 15px;
+  width: 90%;
+}
+
+.fig-div{
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+div.img-div{
+    border-radius: 8px 8px 0 0;
+  }
+
+img.img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+  }
+
+.desktop{
+  display: none;
+}
+
+img.mobile{
+  display: block;
+}
+
+}
+
+/* Medis End */
+
+/* Tag Selectors */
+body{
+  background-color: #090b1a;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  margin: 0;
+}
+
+p{
+  color: #ffffff;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+
+}
+
+h1{
+  font-family: 'Inter', serif;
+  width: 90%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Class Selectors */
+
+.main-div{
+  background-color: #1b1938;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 160px auto 40px;
+  width: 80%;
+}
+
+.text-div{
+  margin: auto;
+  padding: 50px;
+}
+
+.insights{
+  color: #aa5cdb;
+  color: hsl(277, 64%, 61%);
+}
+
+.main-text{
+  line-height: 2;
+  margin: 15px 0 50px;
+  width: 85%;
+}
+
+.fig-div{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.fig-text{
+ font-size: 13px;
+ line-height: 1.5;
+}
+
+.fig{
+  color: #ffffff;
+  display: block;
+  font-family: 'Inter', serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.img-div{
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  background: #aa5cdb;
+  background: hsl(277, 64%, 61%);
+  width: 100%;
+}
+
+.img{
+  border-radius: 0 8px 8px 0;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.mobile{
+  display: none;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
